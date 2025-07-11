@@ -37,7 +37,7 @@ This project has been an invaluable step in my journey toward becoming a network
 2. Run the tool with the `-h` flag to see all available options:
 
     ```bash
-    python net_diag_tool.py -h
+    python3 net_diag_tool.py -h
     ```
 
 ## Examples
@@ -45,23 +45,23 @@ This project has been an invaluable step in my journey toward becoming a network
 - Run all checks on a host (ping, traceroute, and scan common ports):
 
     ```bash
-    python net_diag_tool.py tiktok.com --all
+    python3 net_diag_tool.py tiktok.com --all
     ```
 
 - Ping a host:
 
     ```bash
-    python net_diag_tool.py google.com --ping
+    python3 net_diag_tool.py google.com --ping
     ```
 
 - Scan specific ports on a host:
 
     ```bash
-    python net_diag_tool.py 1.1.1.1 --scan "80,443,53"
+    python3 net_diag_tool.py 1.1.1.1 --scan "80,443,53"
     ```
 
 - Perform a traceroute:
 
     ```bash
-    python net_diag_tool.py unsw.edu.au --traceroute
+    python3 net_diag_tool.py unsw.edu.au --traceroute
     ```
