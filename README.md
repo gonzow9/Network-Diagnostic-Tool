@@ -1,6 +1,6 @@
 # Python Network Diagnostic Toolkit
 
-A command-line network diagnostic tool built in Python. This project was created as a self-initiated learning exercise to deepen my understanding of fundamental networking concepts and Python automation in preparation for a career in network engineering.
+A command-line network diagnostic tool built in Python. This project was created as a self-initiated learning exercise to deepen my understanding of fundamental networking concepts and Python automation.
 
 ## Overview
 
